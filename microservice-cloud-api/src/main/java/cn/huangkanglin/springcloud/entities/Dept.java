@@ -15,7 +15,7 @@ import java.io.Serializable;
 @Data
 @Accessors(chain = true)
 @NoArgsConstructor
-public class Dept<NoArgsConstructor> implements Serializable {
+public class Dept implements Serializable {
     private Long deptId;
     private String deptName;
     private String dbSource;
